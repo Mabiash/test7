@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/ti-logo.png" type="image/x-icon">
+
+    <script
+      src="https://kit.fontawesome.com/5e26758ea8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "gsN1oMCO9xQWrTTio",
+        });
+      })();
+    </script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Daryl</title>
+  </head>
+
+  <body>
+    <header class="position-sticky container-lg-fluid top-0 p-0">
+      <div
+        class="headContent container-lg d-flex justify-content-between align-items-center p-0"
+      >
+        <div class="logo-con">
+          <img src="./images/logo.png" alt="" />
+        </div>
+
+        <div class="navigationContainer">
+          <ul class="nav-links d-flex">
+            <li>
+              <a href="#home" class="fs-6 m-lg-3 m-md-2 active" name="Home"
+                ><i class="fa-solid fa-house"></i>Home</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="fs-6 m-lg-3 m-md-2" name="About"
+                ><i class="fa-solid fa-user"></i>About</a
+              >
+            </li>
+
+            <li>
+              <a href="#services" class="fs-6 m-lg-3 m-md-2" name="Services"
+                ><i class="fa-solid fa-screwdriver-wrench"></i>Services</a
+              >
+            </li>
+
+            <li>
+              <a href="#contacts" class="fs-6 m-lg-3 m-md-2" name="Contacts"
+                ><i class="fa-solid fa-address-card"></i>Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="contacts-btn-con d-flex">
+          <button class="view-works">
+            View My Work
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+
+          <div class="hambergerMenu">
+            <i class="fa-solid fa-bars"> </i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ======= pages ======= -->
+    <main class="container-fluid p-0">
+      <!-- ===== hero page =============================================== -->
+      <section
+        class="container-lg p-0 d-flex justify-content-between home-p"
+        id="home"
+      >
+        <div class="p-0 h-100 section">
+          <!-- headline ========================================= -->
+          <div class="headline">
+            <h1>
+              I'm <span class="myname"></span> <br />
+              Website Developer<span class="dot">.</span><br />
+              <h3>
+                I craft user-friendly websites using cutting-edge technology.
+              </h3>
+            </h1>
+          </div>
+
+          <!-- cta btn ====================================== -->
+          <div class="cta-btn-con">
+            <button class="downLoadCv">
+              DownloadCV
+              <i class="fa-solid fa-download"></i>
+            </button>
+            <button>
+              Get in Touch
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+
+          <!-- social media 's ================================= -->
+          <div class="social-media-con">
+            <a
+              href="https://www.facebook.com/profile.php?id=100074109799435"
+              class="social-media-tag"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="" class="social-media-tag">
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="" class="social-media-tag">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/daryl-bacongco-0b82a4265/" class="social-media-tag">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+
+          <!-- websites image=========================================== -->
+        </div>
+        <div class="img-container h-100">
+          <img src="./images/mypicture.png" alt="" />
+        </div>
+      </section>
+
+      <section
+        class="container-fluid p-0 d-flex flex-column justify-content-between"
+        id="about"
+      >
+        <div class="abt-information container-lg p-0">
+          <h3 class="w-100 text-center">Our Vision</h3>
+
+          <h2 class="text-center mb-5">
+            My commitment to excellence in web development.
+          </h2>
+
+          <div class="intro-container">
+            <div class="personal-info">
+              <div class="api-development w-100 mt-">
+                <div class="icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="des">
+                  <h1>API Development</h1>
+                  <p>
+                    From building APIs to integrating them with your website. I
+                    develop robust and scalable APIs that meet the needs of your
+                    business.
+                  </p>
+                </div>
+              </div>
+
+              <div class="api-development w-100 mt-5">
+                <div class="icon">
+                  <i class="fa-solid fa-pen-nib"></i>
+                </div>
+                <div class="des">
+                  <h1>Web Design and Prototyping</h1>
+                  <p>
+                    I specialize in creating visualy stunning web design and
+                    prototypes that deliver a seamless user experience.
+                  </p>
+                </div>
+              </div>
+
+              <div class="api-development w-100 mt-5">
+                <div class="icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="des">
+                  <h1>E-commerce Solutions</h1>
+                  <p>
+                    I create e-commerce solutions that are intuitive, secure,
+                    and engaging, helping your business grow and thrive online.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="abt-imges">
+              <img src="./images/ecommerce.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="who-we-are p-0 container-lg">
+          <h3 class="who-we w-100">Who We Are</h3>
+          <h4 class="text-center">Meet Daryl - Freelancer Web Developer</h4>
+
+          <div class="who-we-con w-100">
+            <div class="w-img-con">
+              <img src="./images/meet-me.png" alt="" />
+            </div>
+            <div class="w-des">
+              <p>
+                As a freelance web developer with solid technical skills, I have
+                a deep passion for creating stunning websites that exceed my
+                clients' expectations. My approach is collaborative, and I work
+                closely with clients to understand their unique needs,
+                ultimately delivering a website that is tailored to their
+                business and branding.
+
+                <br />
+
+                <a href="tel:+639656207491"
+                  ><i class="fa-solid fa-phone"></i
+                ></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="our-skills container-lg p-0">
+          <h3>Our Skills</h3>
+          <h4>My technical expertise</h4>
+
+          <div class="expertise-con w-100">
+            <div class="my-tech-skills">
+              <p class="">
+                My technical exeprtise includes HTML, CSS, Bootstrap,
+                JavaScript, Node.js, Expres.js, and MongoDB. I specialize in API
+                development, e-commerce solutions, web design, and prototyping.
+                I focus on delivering comprehensive and seamless web development
+                experience, ensuring funtionality, visual appeal, and
+                user-friendliness. My goal is to collaborate closely wiht
+                clients to transform their ideas into riality trough innovative
+                and efficient web development practices.
+              </p>
+            </div>
+            <div class="kills-con">
+              <i class="fa-brands fa-html5" style="color: #e34f26"></i>
+              <i class="fa-brands fa-css3-alt" style="color: #1572b6"></i>
+              <i class="fa-brands fa-bootstrap" style="color: #7952b3"></i>
+              <i class="fa-brands fa-js" style="color: #f7df1e"></i>
+              <i class="fa-brands fa-node" style="color: #339933"></i>
+              <i
+                ><img
+                  src="./images/icons8-express-js-33.png"
+                  alt=""
+                  style="transform: scale(105%)"
+              /></i>
+              <i
+                ><img
+                  src="./images/icons8-mongo-db-33.png"
+                  alt=""
+                  style="transform: scale(105%)"
+              /></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid p-0" id="services">
+        <div class="service-con container-lg p-0">
+          <h1 class="w-100">Services</h1>
+          <h3>
+            As a freelancer, I offer comprehensive IT solutions to help
+            businesses grow and succeed.
+          </h3>
+          <div class="api-service-con container-lg">
+            <div class="api-des">
+              <h4>API Development</h4>
+              <p>
+                I specialize in API development, building custom APIs to help
+                businesses integrate their systems and streamline their
+                processes. I work with a range of programming languages and
+                platforms and ensure that the APIs are secure, scalable, and
+                reliable. I also provide documentation and support to help
+                clients manage and optimize their APIs. <a href="./services/api-development.html">More Details <i class="fa-solid fa-arrow-right"></i> </a>
+              </p>
+            </div>
+            <div class="api-img-con">
+              <img src="./images/api-service.png" alt="" />
+            </div>
+          </div>
+
+          <div class="api-service-con container-lg">
+            <div class="api-des">
+              <h4>Web Design and Prototyping</h4>
+              <p>
+                I specialize in web design and prototyping, creating visually
+                stunning and intuitive interfaces for websites and applications.
+                I use the latest design tools and techniques to craft mockups
+                and prototypes that accurately represent the final product. I
+                also conduct user testing and feedback sessions to ensure that
+                the design meets the client’s expectations and the end-users’
+                needs. <a href="./services/web-design.html">More Details <i class="fa-solid fa-arrow-right"></i> </a>
+              </p>
+            </div>
+            <div class="api-img-con">
+              <img src="./images/design.png" alt="" />
+            </div>
+          </div>
+
+          <div class="api-service-con container-lg">
+            <div class="api-des">
+              <h4>E-commerce Solutions</h4>
+              <p>
+                I offer e-commerce solutions to help businesses establish an
+                online presence and drive revenue. I design and develop custom
+                e-commerce websites that are user-friendly, visually appealing,
+                and optimized for search engines. I also provide payment gateway
+                integration, inventory management, and order tracking features
+                to make the shopping experience seamless and convenient for
+                customers. <a href="./services/e-commerce.html">More Details <i class="fa-solid fa-arrow-right"></i> </a>
+              </p>
+            </div>
+            <div class="api-img-con">
+              <img src="./images/e-commerce-service.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid p-0" id="contacts">
+        <div class="contact-con container-lg p-0  mt-5">
+          <h1>Contact</h1>
+          <div class="contact-me">
+            <div class="contact-des">
+              <h3>Sounds interesting? Let's get in touch!</h3>
+              <p>
+                Please feel free to call or email us, or use our contact form to
+                get in touch with us. We look forward to hearing from you!
+              </p>
+
+              <div class="contact-us">
+                <h3 class="mb-3">Philippines</h3>
+                <p class="mb-0">Macatoc, Victoria, Oriental Mindoro, 5205</p>
+                <p class="mt-2 mb-2">+63 (0965) 620-7491</p>
+                <a
+                  href="mailto:bacongcodaryl@gmail.com?subject=Greetings!%20We%20Look%20Forward%20to%20Your%20Message"
+                  class="text-decoration-none"
+                  >bacongcodaryl@gmail.com</a
+                >
+              </div>
+            </div>
+            <form class="form-con">
+              <div class="msg-ipt-form-con">
+                <div class="msg">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    class="ipt-msg"
+                    id="ipt-name"
+                  />
+                </div>
+                <div class="msg">
+                  <input
+                    required
+                    type="text"
+                    name="email"
+                    placeholder="Email*"
+                    class="ipt-msg"
+                    id="ipt-email"
+                  />
+                </div>
+                <div class="msg">
+                  <textarea
+                    required
+                    name="message"
+                    id="ipt-message"
+                    placeholder="Message*"
+                    class="ipt-msg text-a"
+                  ></textarea>
+                </div>
+                <p class="email-sent-ver"></p>
+                <div class="btn-send-con">
+                  <button type="submit" onclick="sendEmail()">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-con h-100 container-lg bg-body">
+
+        </div>
+      </footer>
+    </main>
+
+    <!-- ====== bootrap bundle ===== -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
